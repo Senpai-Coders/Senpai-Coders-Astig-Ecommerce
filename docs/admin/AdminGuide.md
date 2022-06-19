@@ -15,7 +15,7 @@ To login using Admin Account, follow these steps:
 
     **NOTE:** On first time access, the developer will manually create an account for the root admin. This account is the main admin that the store **higher Admin personel** will use. This account can **create**, **update**, **delete** other admin accounts. If you don't know your account credential or you have trouble with your password. Contact the **Main Admin personel** of the store for help.
 
-3. **Step 3** Once you successfully logged in, you will be redirected to the Loft16 Admin Dashboard, from this page you can now access admin actions such as Product Insights, Product & Management, Transactions, and Admin Account Management.
+3. **Step 3** Once you successfully logged in, you will be redirected to the Astig03 Admin Dashboard, from this page you can now access admin actions such as Product Insights, Product & Management, Transactions, and Admin Account Management.
 
     ![Dashboard](./images/dashboard.png)
 
@@ -190,7 +190,7 @@ Only the **Root Admin** and existing **Admins** can create another admin. Please
 
 If you are authorized admin, follow these steps in creating new admin:
 
-1. **Step 1** From **Dashboard** under the **Account Management**. Click **Admin** & it will direct you to Loft16 Admins page where you can create, update another admin or your own admin account based on your account admin role. Just click **Create New Admin** with the plus icon button.
+1. **Step 1** From **Dashboard** under the **Account Management**. Click **Admin** & it will direct you to Astig03 Admins page where you can create, update another admin or your own admin account based on your account admin role. Just click **Create New Admin** with the plus icon button.
 
     ![Admins](./images/adminst.png)
 
@@ -199,7 +199,7 @@ If you are authorized admin, follow these steps in creating new admin:
 
     ![New Admin](./images/newadmin.png)
 
-3. **Step 3** After saving the account automatically appear on the Loft16 Admins Page.
+3. **Step 3** After saving the account automatically appear on the Astig03 Admins Page.
 
 ### Delete an admin account
 
