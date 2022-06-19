@@ -141,7 +141,7 @@ const Categories = () => {
                             txtbg={"text-teal-700"}
                             isError={false}
                             msg={
-                                "This will help you easily categorize your categories as well as help user to filter result in Loft 16 website"
+                                "This will help you easily categorize your categories as well as help user to filter result in Astig03 website"
                             }
                         />
                     </div>

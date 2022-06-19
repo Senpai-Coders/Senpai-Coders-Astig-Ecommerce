@@ -82,7 +82,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="defTextCol2 py-6 text-sm text-center dark:text-coolGray-400">
-        © 2016 Loft16. All rights reserved.
+        © 2022 Astig03. All rights reserved.
       </div>
     </footer>
 

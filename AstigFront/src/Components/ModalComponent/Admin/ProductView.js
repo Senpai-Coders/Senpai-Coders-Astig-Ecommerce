@@ -313,7 +313,7 @@ const ProductView = ({ _id, data, mode, onSave }) => {
                 bg={"bg-teal-50"}
                 txtbg={"text-teal-600"}
                 msg={
-                  "Hot products will be featured at the landing page of loft 16"
+                  "Hot products will be featured at the landing page of Astig03"
                 }
               />
 

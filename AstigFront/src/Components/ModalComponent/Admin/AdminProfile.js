@@ -503,7 +503,7 @@ const AdminProfile = ({
                 bg={"bg-teal-50"}
                 txtbg={"text-teal-600"}
                 msg={
-                  "This is where Loft 16 recovery & 2 factor auth code will be sent"
+                  "This is where Astig03 recovery & 2 factor auth code will be sent"
                 }
               />
             </div>
