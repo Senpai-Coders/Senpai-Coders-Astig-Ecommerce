@@ -478,7 +478,7 @@ const Header = (props) => {
                   <a
                     rel="noreferrer"
                     target={"_blank"}
-                    href="https://senpai-coders.github.io/Astig-Ecommerce/#/./user/UserGuide"
+                    href="https://senpai-coders.github.io/Senpai-Coders-Astig-Ecommerce/#/./user/UserGuide"
                     className=" font-normal"
                   >
                     User Manual

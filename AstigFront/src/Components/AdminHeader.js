@@ -146,7 +146,7 @@ const AdminHeader = (props) => {
                 <a 
                     rel="noreferrer"
                     target={"_blank"}
-                    href="https://jervx.github.io/Loft16OnlineOrdering/#/./admin/AdminGuide" className=" font-normal">Admin Manual</a>
+                    href="https://senpai-coders.github.io/Senpai-Coders-Astig-Ecommerce/#/./admin/AdminGuide" className=" font-normal">Admin Manual</a>
               </DropdownItem>
 
               <DropdownItem
