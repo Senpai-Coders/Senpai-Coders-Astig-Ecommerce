@@ -1,0 +1,744 @@
+{
+  "create": [
+    {
+      "name": "Nina Kyro Metallic",
+      "description": "Nina Kyro Metallic Mesh Block Heels Women's Black Square Toe",
+      "variants": [
+        {
+          "name": "US 5",
+          "price": 280,
+          "stock": 8
+        }
+      ]
+    },
+    {
+      "name": "Padourouge Casual Shoe",
+      "description": "Padourouge Casual Shoe",
+      "variants": [
+        {
+          "name": "US 5",
+          "price": 350,
+          "stock": 5
+        }
+      ]
+    },
+    {
+      "name": "Jack Sprat Stylish Red Bow Pumps",
+      "description": "Jack Sprat Stylish Red Bow Pumps",
+      "variants": [
+        {
+          "name": "US 5",
+          "price": 250,
+          "stock": 10
+        }
+      ]
+    },
+    {
+      "name": "BENIR White Lace Pumps",
+      "description": "BENIR White Lace Pumps",
+      "variants": [
+        {
+          "name": "US 5",
+          "price": 350,
+          "stock": 7
+        }
+      ]
+    },
+    {
+      "name": "Stuart Weitzman Black Suede Heels Criss Cross Ribbon Pumps",
+      "description": "Stuart Weitzman Black Suede Heels Criss Cross Ribbon Pumps",
+      "variants": [
+        {
+          "name": "US 5",
+          "price": 280,
+          "stock": 15
+        }
+      ]
+    },
+    {
+      "name": "Ugg Boots Classic Short Beige Boots",
+      "description": "Ugg Boots Classic Short Beige Boots",
+      "variants": [
+        {
+          "name": "US 5",
+          "price": 300,
+          "stock": 12
+        }
+      ]
+    },
+    {
+      "name": "Converse All Star Gray Running Shoes Sneakers",
+      "description": "Converse All Star Gray Running Shoes Sneakers",
+      "variants": [
+        {
+          "name": "US 5",
+          "price": 250,
+          "stock": 9
+        }
+      ]
+    },
+    {
+      "name": "MADAME HIROKO Pumps Gray x Leopard Heels",
+      "description": "MADAME HIROKO Pumps Gray x Leopard Heels",
+      "variants": [
+        {
+          "name": "US 5",
+          "price": 280,
+          "stock": 4
+        }
+      ]
+    },
+    {
+      "name": "Spider Girl",
+      "description": "Spider Girl Costume",
+      "variants": [
+        {
+          "name": "Extra Small",
+          "price": 280,
+          "stock": 8
+        },
+        {
+          "name": "Small",
+          "price": 350,
+          "stock": 11
+        },
+        {
+          "name": "Large",
+          "price": 400,
+          "stock": 14
+        },
+        {
+          "name": "XL",
+          "price": 480,
+          "stock": 23
+        }
+      ]
+    },
+    {
+      "name": "Ariel The Little Mermaid",
+      "description": "Ariel The Little Mermaid Costume",
+      "variants": [
+        {
+          "name": "Extra Small",
+          "price": 280,
+          "stock": 8
+        },
+        {
+          "name": "Small",
+          "price": 350,
+          "stock": 11
+        },
+        {
+          "name": "Large",
+          "price": 400,
+          "stock": 14
+        },
+        {
+          "name": "XL",
+          "price": 480,
+          "stock": 23
+        }
+      ]
+    },
+    {
+      "name": "Barbie",
+      "description": "Barbie Costume",
+      "variants": [
+        {
+          "name": "Extra Small",
+          "price": 280,
+          "stock": 8
+        },
+        {
+          "name": "Small",
+          "price": 350,
+          "stock": 11
+        },
+        {
+          "name": "Large",
+          "price": 400,
+          "stock": 14
+        },
+        {
+          "name": "XL",
+          "price": 480,
+          "stock": 23
+        }
+      ]
+    },
+    {
+      "name": "Batgirl",
+      "description": "Batgirl Costume",
+      "variants": [
+        {
+          "name": "Extra Small",
+          "price": 280,
+          "stock": 8
+        },
+        {
+          "name": "Small",
+          "price": 350,
+          "stock": 11
+        },
+        {
+          "name": "Large",
+          "price": 400,
+          "stock": 14
+        },
+        {
+          "name": "XL",
+          "price": 480,
+          "stock": 23
+        }
+      ]
+    },
+    {
+      "name": "Belle Disney Princess",
+      "description": "Belle Disney Princess Costume",
+      "variants": [
+        {
+          "name": "Extra Small",
+          "price": 280,
+          "stock": 8
+        },
+        {
+          "name": "Small",
+          "price": 350,
+          "stock": 11
+        },
+        {
+          "name": "Large",
+          "price": 400,
+          "stock": 14
+        },
+        {
+          "name": "XL",
+          "price": 480,
+          "stock": 23
+        }
+      ]
+    },
+    {
+      "name": "Cinderella Disney Princess",
+      "description": "Cinderella Disney Princess",
+      "variants": [
+        {
+          "name": "Extra Small",
+          "price": 280,
+          "stock": 8
+        },
+        {
+          "name": "Small",
+          "price": 350,
+          "stock": 11
+        },
+        {
+          "name": "Large",
+          "price": 400,
+          "stock": 14
+        },
+        {
+          "name": "XL",
+          "price": 480,
+          "stock": 23
+        }
+      ]
+    },
+    {
+      "name": "Cocomelon",
+      "description": "Cocomelon",
+      "variants": [
+        {
+          "name": "Extra Small",
+          "price": 280,
+          "stock": 8
+        },
+        {
+          "name": "Small",
+          "price": 350,
+          "stock": 11
+        },
+        {
+          "name": "Large",
+          "price": 400,
+          "stock": 14
+        },
+        {
+          "name": "XL",
+          "price": 480,
+          "stock": 23
+        }
+      ]
+    },
+    {
+      "name": "Harley Quinn",
+      "description": "Harley Quinn Costume",
+      "variants": [
+        {
+          "name": "Extra Small",
+          "price": 280,
+          "stock": 8
+        },
+        {
+          "name": "Small",
+          "price": 350,
+          "stock": 11
+        },
+        {
+          "name": "Large",
+          "price": 400,
+          "stock": 14
+        },
+        {
+          "name": "XL",
+          "price": 480,
+          "stock": 23
+        }
+      ]
+    },
+    {
+      "name": "Hello Kitty",
+      "description": "Hello Kitty Costume",
+      "variants": [
+        {
+          "name": "Extra Small",
+          "price": 280,
+          "stock": 8
+        },
+        {
+          "name": "Small",
+          "price": 350,
+          "stock": 11
+        },
+        {
+          "name": "Large",
+          "price": 400,
+          "stock": 14
+        },
+        {
+          "name": "XL",
+          "price": 480,
+          "stock": 23
+        }
+      ]
+    },
+    {
+      "name": "Jasmine Princess Disney",
+      "description": "Jasmine Princess Disney Costume",
+      "variants": [
+        {
+          "name": "Extra Small",
+          "price": 280,
+          "stock": 8
+        },
+        {
+          "name": "Small",
+          "price": 350,
+          "stock": 11
+        },
+        {
+          "name": "Large",
+          "price": 400,
+          "stock": 14
+        },
+        {
+          "name": "XL",
+          "price": 480,
+          "stock": 23
+        }
+      ]
+    },
+    {
+      "name": "Little Darna",
+      "description": "Little Darna Costume",
+      "variants": [
+        {
+          "name": "Extra Small",
+          "price": 280,
+          "stock": 8
+        },
+        {
+          "name": "Small",
+          "price": 350,
+          "stock": 11
+        },
+        {
+          "name": "Large",
+          "price": 400,
+          "stock": 14
+        },
+        {
+          "name": "XL",
+          "price": 480,
+          "stock": 23
+        }
+      ]
+    },
+    {
+      "name": "Little Red Riding Hood",
+      "description": "Little Red Riding Hood Costume",
+      "variants": [
+        {
+          "name": "Extra Small",
+          "price": 280,
+          "stock": 8
+        },
+        {
+          "name": "Small",
+          "price": 350,
+          "stock": 11
+        },
+        {
+          "name": "Large",
+          "price": 400,
+          "stock": 14
+        },
+        {
+          "name": "XL",
+          "price": 480,
+          "stock": 23
+        }
+      ]
+    },
+    {
+      "name": "Magical Unicorn and Rainbow",
+      "description": "Magical Unicorn and Rainbow Costume",
+      "variants": [
+        {
+          "name": "Extra Small",
+          "price": 280,
+          "stock": 8
+        },
+        {
+          "name": "Small",
+          "price": 350,
+          "stock": 11
+        },
+        {
+          "name": "Large",
+          "price": 400,
+          "stock": 14
+        },
+        {
+          "name": "XL",
+          "price": 480,
+          "stock": 23
+        }
+      ]
+    },
+    {
+      "name": "Minnie Mouse",
+      "description": "Minnie Mouse Costume",
+      "variants": [
+        {
+          "name": "Extra Small",
+          "price": 280,
+          "stock": 8
+        },
+        {
+          "name": "Small",
+          "price": 350,
+          "stock": 11
+        },
+        {
+          "name": "Large",
+          "price": 400,
+          "stock": 14
+        },
+        {
+          "name": "XL",
+          "price": 480,
+          "stock": 23
+        }
+      ]
+    },
+    {
+      "name": "Peppa Pig",
+      "description": "Peppa Pig Costume",
+      "variants": [
+        {
+          "name": "Extra Small",
+          "price": 280,
+          "stock": 8
+        },
+        {
+          "name": "Small",
+          "price": 350,
+          "stock": 11
+        },
+        {
+          "name": "Large",
+          "price": 400,
+          "stock": 14
+        },
+        {
+          "name": "XL",
+          "price": 480,
+          "stock": 23
+        }
+      ]
+    },
+    {
+      "name": "Princess Anna",
+      "description": "Princess Anna Costume",
+      "variants": [
+        {
+          "name": "Extra Small",
+          "price": 280,
+          "stock": 8
+        },
+        {
+          "name": "Small",
+          "price": 350,
+          "stock": 11
+        },
+        {
+          "name": "Large",
+          "price": 400,
+          "stock": 14
+        },
+        {
+          "name": "XL",
+          "price": 480,
+          "stock": 23
+        }
+      ]
+    },
+    {
+      "name": "Princess Elsa_",
+      "description": "Princess Elsa_ Costume",
+      "variants": [
+        {
+          "name": "Extra Small",
+          "price": 280,
+          "stock": 8
+        },
+        {
+          "name": "Small",
+          "price": 350,
+          "stock": 11
+        },
+        {
+          "name": "Large",
+          "price": 400,
+          "stock": 14
+        },
+        {
+          "name": "XL",
+          "price": 480,
+          "stock": 23
+        }
+      ]
+    },
+    {
+      "name": "Princess Sofia",
+      "description": "Princess Sofia Costume",
+      "variants": [
+        {
+          "name": "Extra Small",
+          "price": 280,
+          "stock": 8
+        },
+        {
+          "name": "Small",
+          "price": 350,
+          "stock": 11
+        },
+        {
+          "name": "Large",
+          "price": 400,
+          "stock": 14
+        },
+        {
+          "name": "XL",
+          "price": 480,
+          "stock": 23
+        }
+      ]
+    },
+    {
+      "name": "Snow White Disney Princess",
+      "description": "Snow White Disney Princess Costume",
+      "variants": [
+        {
+          "name": "Extra Small",
+          "price": 280,
+          "stock": 8
+        },
+        {
+          "name": "Small",
+          "price": 350,
+          "stock": 11
+        },
+        {
+          "name": "Large",
+          "price": 400,
+          "stock": 14
+        },
+        {
+          "name": "XL",
+          "price": 480,
+          "stock": 23
+        }
+      ]
+    },
+    {
+      "name": "Tinkerbell",
+      "description": "Tinkerbell Costume",
+      "variants": [
+        {
+          "name": "Extra Small",
+          "price": 280,
+          "stock": 8
+        },
+        {
+          "name": "Small",
+          "price": 350,
+          "stock": 11
+        },
+        {
+          "name": "Large",
+          "price": 400,
+          "stock": 14
+        },
+        {
+          "name": "XL",
+          "price": 480,
+          "stock": 23
+        }
+      ]
+    },
+    {
+      "name": "Hulk Marvel Avengers",
+      "description": "Hulk Marvel Avengers Costume",
+      "variants": [
+        {
+          "name": "Large",
+          "price": 400,
+          "stock": 14
+        }
+      ]
+    },
+    {
+      "name": "Spider Man",
+      "description": "Spider Man Costume",
+      "variants": [
+        {
+          "name": "Large",
+          "price": 400,
+          "stock": 14
+        }
+      ]
+    },
+    {
+      "name": "Furla",
+      "description": "Furla",
+      "variants": [
+        {
+          "name": "9w x 6h",
+          "price": 420,
+          "stock": 14
+        }
+      ]
+    },
+    {
+      "name": "Faux Crocodile Embossed Leather Turnlock Flap Bag",
+      "description": "Faux Crocodile Embossed Leather Turnlock Flap Bag - Black",
+      "variants": [
+        {
+          "name": "Black (9w x 5h)",
+          "price": 420,
+          "stock": 7
+        }
+      ]
+    },
+    {
+      "name": "Vintage Coach Leather Small Crossbody Shoulder Handbag",
+      "description": "Vintage Coach Leather Small Crossbody Shoulder Handbag",
+      "variants": [
+        {
+          "name": "(16w x 8h)",
+          "price": 450,
+          "stock": 3
+        }
+      ]
+    },
+    {
+      "name": "AIGNER Etienne Genuine Brown Leather Shoulder Bag Handbag Purse",
+      "description": "AIGNER Etienne Genuine Brown Leather Shoulder Bag Handbag Purse",
+      "variants": [
+        {
+          "name": "(10w x 7h)",
+          "price": 480,
+          "stock": 14
+        }
+      ]
+    },
+    {
+      "name": "Round Glitter Cross Body Bag Silver",
+      "description": "Round Glitter Cross Body Bag Silver",
+      "variants": [
+        {
+          "name": "(6.4w x 10h) ",
+          "price": 400,
+          "stock": 7
+        }
+      ]
+    },
+    {
+      "name": "Black Plain Leather Bag",
+      "description": "Black Plain Leather Bag",
+      "variants": [
+        {
+          "name": "(11w x 18h)",
+          "price": 650,
+          "stock": 14
+        }
+      ]
+    },
+    {
+      "name": "Coral Leef Leather Bag",
+      "description": "Coral Leef Leather Bag",
+      "variants": [
+        {
+          "name": "(24w x 17h)",
+          "price": 800,
+          "stock": 18
+        }
+      ]
+    },
+    {
+      "name": "The Flash",
+      "description": "The Flash Costume",
+      "variants": [
+        {
+          "name": "Large",
+          "price": 400,
+          "stock": 14
+        }
+      ]
+    },
+    {
+      "name": "Japanese School Backpack Waterproof Dual Purpose",
+      "description": "Japanese School Backpack Waterproof Dual Purpose",
+      "variants": [
+        {
+          "name": "(19w x 29h)",
+          "price": 850,
+          "stock": 8
+        }
+      ]
+    },
+    {
+      "name": "FAVORI Tote Bag Large Grey x Light Brown",
+      "description": "FAVORI Tote Bag Large Grey x Light Brown",
+      "variants": [
+        {
+          "name": "(26w x 17h)",
+          "price": 335,
+          "stock": 11
+        }
+      ]
+    }
+  ]
+}
