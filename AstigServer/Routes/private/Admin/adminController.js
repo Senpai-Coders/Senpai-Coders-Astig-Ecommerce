@@ -67,24 +67,24 @@ router.post(
 );
 
 router.post("/uploadAdminProfile", adminAuth, async (req, res) => {
-    try {
-      const { url, _id } = req.body;
-      if (_id) {
-        const updateAdminData = await Admin.updateOne(
-          { _id },
-          {
-            $set: {
-              profile_picture: url,
-            },
-          }
-        );
-      }
-  
-      res.status(200).json({ message: "ok!" });
-    } catch (e) {
-      ehandler(e, res);
+  try {
+    const { url, _id } = req.body;
+    if (_id) {
+      const updateAdminData = await Admin.updateOne(
+        { _id },
+        {
+          $set: {
+            profile_picture: url,
+          },
+        }
+      );
     }
-  });
+
+    res.status(200).json({ message: "ok!" });
+  } catch (e) {
+    ehandler(e, res);
+  }
+});
 
 var productStorage = multer.diskStorage({
   destination: function (req, file, cb) {
@@ -226,8 +226,8 @@ router.post("/updateProduct", adminAuth, async (req, res) => {
               $each: complexData.newCategories,
             },
             variants: {
-                $each :  complexData.newVariants
-              },
+              $each: complexData.newVariants
+            },
           },
         }
       );
@@ -260,7 +260,7 @@ router.post("/updateProduct", adminAuth, async (req, res) => {
         name: simpleData.name,
       });
 
-     
+
       if (doesExist && !doesExist._id.equals(new ObjectId(prod_Id)))
         return res.status(401).json({
           code: 401,
@@ -283,7 +283,7 @@ router.post("/updateProduct", adminAuth, async (req, res) => {
           }
         );
       });
-     
+
       complexData.newCategories.forEach(async (name) => {
         const updateCat = await Categories.updateOne(
           {
@@ -295,7 +295,7 @@ router.post("/updateProduct", adminAuth, async (req, res) => {
             },
           }
         );
-      });  
+      });
 
       const updateDelete = await Product.updateOne(
         {
@@ -331,7 +331,7 @@ router.post("/updateProduct", adminAuth, async (req, res) => {
               $each: complexData.newCategories,
             },
             variants: {
-              $each :  complexData.newVariants
+              $each: complexData.newVariants
             },
           },
         }
@@ -416,7 +416,7 @@ router.post("/seenConversation", adminAuth, async (req, res) => {
     res.status(200).json({
       message: "ok",
     });
-  } catch (e) {}
+  } catch (e) { }
 });
 
 router.post("/deleteConversation", adminAuth, async (req, res) => {
@@ -428,7 +428,7 @@ router.post("/deleteConversation", adminAuth, async (req, res) => {
     res.status(200).json({
       message: "ok, deleted",
     });
-  } catch (e) {}
+  } catch (e) { }
 });
 
 router.post("/sendMessage", adminAuth, async (req, res) => {
@@ -994,19 +994,19 @@ router.post("/updatePending", adminAuth, async (req, res) => {
           },
         }
       );
+
+      const userData = await User.findOne({
+        _id: doesExist.user_ID,
+      });
+
+      let toSent = { ...userData, order_ID: doesExist.order_ID, reason };
+
+      const sendUpdate = await sendEmail(userData.email_address, {
+        ...toSent,
+        template_name: "OrderCancelled.html",
+        subject: "Sorry, your order was cancelled",
+      });
     }
-
-    const userData = await User.findOne({
-      _id: doesExist.user_ID,
-    });
-
-    let toSent = { ...userData, order_ID: doesExist.order_ID, reason };
-
-    const sendUpdate = await sendEmail(userData.email_address, {
-      ...toSent,
-      template_name: "OrderCancelled.html",
-      subject: "Sorry, your order was cancelled",
-    });
 
     res.status(200).json({
       message: "ok!",
