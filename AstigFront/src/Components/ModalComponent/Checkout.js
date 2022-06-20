@@ -350,7 +350,7 @@ const Checkout = () => {
         <div className="flex justify-center mt-4">
           <Button
             className={
-              "mt-4 rounded-md defBackground hover:bg-green-500" +
+              "mt-4 rounded-md defBackground" +
               (userData.shipping_address.default_address === -1 ||
               userData.mobile_numbers.length === 0 ||
               couriers.length === 0
