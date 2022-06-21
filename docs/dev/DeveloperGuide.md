@@ -108,9 +108,9 @@ git clone https://github.com/Senpai-Coders/Senpai-Coders-Astig-Ecommerce
 
 4. Go to **AstigFront** folder and get the 'env copy' file from Jamiena Franza(Developer of Astig03) and change its name to **'.env'**
 
-5. open .env file and replace 192.168.1.5 with your pc IP address you got from step 2
+5. open .env file and replace 192.168.* . * with your pc IP address you got from step 2
 
-6. Go to **AstigServer** folder and get the 'env copy' file from Jamiena Franza(Developer of Astig03) and change its name to **'.env'**. Note : this env is for the backend. Just like what you did before replace the ip 192.168.1.5 with your pc ip from step 2
+6. Go to **AstigServer** folder and get the 'env copy' file from Jamiena Franza(Developer of Astig03) and change its name to **'.env'**. Note : this env is for the backend. Just like what you did before replace the ip 192.168.* . * with your pc ip from step 2
 
 <hr>
 
