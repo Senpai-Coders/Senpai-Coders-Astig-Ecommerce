@@ -306,7 +306,7 @@ const Signup = (props) => {
               src={
                 "https://cdn.discordapp.com/attachments/912411399458795593/937315295683543050/pexels-photo-2660262.png"
               }
-              alt="Loft Product"
+              alt="astig03 product"
             />
             <img
               aria-hidden="true"
@@ -314,7 +314,7 @@ const Signup = (props) => {
               src={
                 "https://cdn.discordapp.com/attachments/912411399458795593/937315295683543050/pexels-photo-2660262.png"
               }
-              alt="Loft Product"
+              alt="astig03 product"
             />
           </div>
           <main className="flex items-center justify-center p-6 sm:p-12 md:w-1/2">

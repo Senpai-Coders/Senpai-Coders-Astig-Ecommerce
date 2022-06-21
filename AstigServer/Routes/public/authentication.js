@@ -28,7 +28,7 @@ let ObjectId = require("mongoose").Types.ObjectId;
 const HAS_SSL = process.env.HAS_SSL
 const loftCookieConifg = HAS_SSL === true ? { httpOnly: true, secure: true, SameSite: "None" } : { httpOnly: true, SameSite: "Lax" };
 
-//generate loft confirmation code
+//generate astig03 confirmation code
 let generateCode = () => {
   let code = randomstring.generate({
     length: 6,
@@ -49,7 +49,7 @@ const createCookieExpiration = (hour) => {
   return Number.parseInt(process.env.COOKIE_EXP) * 60 * 60 * 1000;
 };
 
-// check loft confirmation code expiry d1-current d2-expiry
+// check astig confirmation code expiry d1-current d2-expiry
 let isExpired = (d2) => {
   return new Date().getTime() > new Date(d2).getTime();
 };
@@ -109,7 +109,7 @@ router.post("/recover", async (req, res) => {
         const sendConfirmationCode = sendEmail(email_addr, {
             ...toSent,
             template_name: "Recovery.html",
-            subject: "Loft16 Account Recovery",
+            subject: "Astig03 Account Recovery",
           });
     })
 
@@ -213,7 +213,7 @@ router.post("/signin", async (req, res) => {
                 err: 404,
                 description: "You are not one of the Admin",
                 solution:
-                  "Loft 16 identified your email is not one of admins. Please use a valid admin account",
+                  "Astig03 identified your email is not one of admins. Please use a valid admin account",
               });
         }
 
@@ -234,7 +234,7 @@ router.post("/signin", async (req, res) => {
           email_address: userEmail,
           password: genPass,
           template_name: "YourPassword.html",
-          subject: "Loft16 Sign Up Generated Password",
+          subject: "Astig03 Sign Up Generated Password",
         });
       }
 
@@ -294,7 +294,7 @@ router.post("/signin", async (req, res) => {
       err: 404,
       description: "Account Not Found",
       solution:
-        `The given credential doesn't belong to our existing ${admin? 'admins' : 'users'}, ${admin? ' please contact authorized loft 16 admin to create your admin account' :' please create an account' }`,
+        `The given credential doesn't belong to our existing ${admin? 'admins' : 'users'}, ${admin? ' please contact authorized Astig03 admin to create your admin account' :' please create an account' }`,
     });
 
   if (!(await bcrypt.compare(password, USER.password)))
@@ -326,7 +326,7 @@ router.post("/signin", async (req, res) => {
       const sendConfirmationCode = sendEmail(email_address, {
         ...toSent,
         template_name: "TwoFactorAuth.html",
-        subject: "Loft16 TwoFactorAuthentication Code",
+        subject: "Astig03 TwoFactorAuthentication Code",
       });
 
       return res.status(200).json({ twoFactorRequired: true, code });
@@ -514,7 +514,7 @@ router.post("/signup", async (req, res) => {
 
 
     //if everything goes right, the registration entry confirmation code will be cleared from
-    //loft 16 confirmation code collections
+    //Astig03 confirmation code collections
     const ress = await Email_Confirmation.deleteOne({ email_address });
 
     //user password will be hashed
@@ -602,7 +602,7 @@ router.post("/confirm_email", async (req, res) => {
       sendConfirmationCode = sendEmail(email_address, {
         ...email_confirmation.toObject(),
         template_name: "EmailConfirmation.html",
-        subject: "Loft16 Sign Up Email Confirmation",
+        subject: "Astig03 Sign Up Email Confirmation",
       });
 
     return res.status(201).json({

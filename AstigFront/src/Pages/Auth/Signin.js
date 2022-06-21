@@ -277,7 +277,7 @@ const Singin = (props) => {
               src={
                 "https://cdn.discordapp.com/attachments/912411399458795593/937312520690077716/pexels-photo-4843914.png"
               }
-              alt="Loft Product"
+              alt="astig03 product"
             />
             <img
               aria-hidden="true"
@@ -285,7 +285,7 @@ const Singin = (props) => {
               src={
                 "https://cdn.discordapp.com/attachments/912411399458795593/937312549664337920/pexels-photo-2562560.png"
               }
-              alt="Loft Product"
+              alt="astig03 product"
             />
           </div>
           <main className="flex items-center justify-center p-6 sm:p-12 md:w-1/2">

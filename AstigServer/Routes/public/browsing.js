@@ -79,7 +79,7 @@ router.get("/getCouriers", async (req, res) => {
       err: 500,
       description: "Internal Server Error",
       solution:
-        "Sorry! Something's wrong with the server, please try again later or contact loft16 admin",
+        "Sorry! Something's wrong with the server, please try again later or contact Astig03 admin",
     });
   }
 });
@@ -118,7 +118,7 @@ router.get("/getproductdetail/:id", async (req, res) => {
       err: 500,
       description: "Internal Server Error",
       solution:
-        "Sorry! Something's wrong with the server, please try again later or contact loft16 admin",
+        "Sorry! Something's wrong with the server, please try again later or contact Astig03 admin",
     });
   }
 });

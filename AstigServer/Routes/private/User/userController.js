@@ -412,16 +412,6 @@ router.post("/mypassword", async (req, res) => {
       }
     );
 
-    // const mailsent = await sendEmail(userEmail, {
-    //     name,
-    //     user_name,
-    //     email_address : userEmail,
-    //     password : genPass,
-    //     template_name: "YourPassword.html",
-    //     subject: "Loft16 Sign Up Email Confirmation",
-    //   });
-    // }
-
     res.status(201).json({
       status: 201,
       message: "Updated!",
