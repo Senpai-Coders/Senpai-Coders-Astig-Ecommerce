@@ -89,18 +89,13 @@ const PendingOrders = () => {
 
     useEffect(() => {
         loadSomething();
-        const interval = setInterval(() => {
-            loadSomething();
-        }, getTickUpdate());
-
         return () => {
             setUnmounted(true);
-            clearInterval(interval)
         };
     }, [adminData]);
 
     return (
-        <div className="h-screen w-full bg-gray-50 ">
+        <div onClick={()=> loadSomething()} className="h-screen w-full bg-gray-50 ">
             {!adminData ? (
                 <ProtectedLoader />
             ) : (

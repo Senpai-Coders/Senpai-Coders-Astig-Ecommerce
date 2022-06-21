@@ -104,7 +104,7 @@ git clone https://github.com/Senpai-Coders/Senpai-Coders-Astig-Ecommerce
    ipconfig
    ```
 
-3. Extract you downloaded from github. After extraction, open the extracted folder Astig-Ecommerce using Visual Studio Code
+3. Extract the downloaded repo from github. After extraction, open the extracted folder Senpai-Coders-Astig-Ecommerce using Visual Studio Code
 
 4. Go to **AstigFront** folder and get the 'env copy' file from Jamiena Franza(Developer of Astig03) and change its name to **'.env'**
 
@@ -121,6 +121,9 @@ Starting Frontend
    ```sh
    cd AstigFront;
    ```
+   ```sh
+   npm i;
+   ```
 
    ```sh
    npm start
@@ -134,6 +137,9 @@ Starting Backend
 1. Open a new terminal and execute the following command
    ```sh
    cd AstigServer
+   ```
+   ```sh
+   npm i
    ```
    ```sh
    node server.js
