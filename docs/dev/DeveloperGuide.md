@@ -80,7 +80,7 @@ Make sure you have **NPM**, **Node** installed in your system, **MongoDb Communi
 ## Installation
 If you are a **developer** who is hired to **improve**, **fix bugs**, or **add features** to this website, follow the video or the instructions bellow. 
 
-[![Astig Dev Guide](https://img.youtube.com/vi/tTVuB-x_Ir0/0.jpg)](https://www.youtube.com/watch?v=tTVuB-x_Ir0)
+[![Astig Dev Guide](https://img.youtube.com/vi/OGyetpg88p4/0.jpg)](https://www.youtube.com/watch?v=OGyetpg88p4)
 
 _Below is the process of setting up the front end and server._
 
