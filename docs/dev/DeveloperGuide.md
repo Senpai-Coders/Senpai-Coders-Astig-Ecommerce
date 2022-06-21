@@ -80,7 +80,7 @@ Make sure you have **NPM**, **Node** installed in your system, **MongoDb Communi
 ## Installation
 If you are a **developer** who is hired to **improve**, **fix bugs**, or **add features** to this website, follow the video or the instructions bellow. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/tTVuB-x_Ir0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tTVuB-x_Ir0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>   
 
 _Below is the process of setting up the front end and server._
 
