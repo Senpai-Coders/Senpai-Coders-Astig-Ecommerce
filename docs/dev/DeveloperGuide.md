@@ -126,7 +126,7 @@ Starting Frontend
    ```
 
    ```sh
-   npm start
+   npm run dev
    ```
    
     Note: While starting the frontend, your default browser may open the automaticaly
@@ -142,7 +142,7 @@ Starting Backend
    npm i
    ```
    ```sh
-   node server.js
+   npm run dev
    ```
    The result must be
    ```sh
