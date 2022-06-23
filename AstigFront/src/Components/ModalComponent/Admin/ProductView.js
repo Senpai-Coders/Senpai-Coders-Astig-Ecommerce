@@ -717,7 +717,7 @@ const ProductView = ({ _id, data, mode, onSave }) => {
                   setFileImages(e.target.files);
                   handleUpload(e.target.files)
                   setNewImages(() => {
-                    let urlImages = [];
+                    let urlImages = [...newImages];
                     let fileArr = Array.from(e.target.files);
                     fileArr.forEach((fileurl) => {
                       urlImages.push(URL.createObjectURL(fileurl));
