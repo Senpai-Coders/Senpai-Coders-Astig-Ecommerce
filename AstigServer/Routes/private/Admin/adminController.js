@@ -498,8 +498,35 @@ router.post("/insights", adminAuth, async (req, res) => {
     let pendings = await Pendings.find({}).count();
     let inprogress = await InProgress.find({}).count();
     let completed = await Completed.find({}).count();
+    let cancelled_orders = await Orders.find({ order_status : -1 }).count();
     let products = await Product.find({}).count();
     let available = await Product.find({ total_stock: { $gt: 0 } }).count();
+    let low = await Product.find({ total_stock: { $lt: 1 } }).count();
+
+    const now = new Date()
+    now.setDate(1)
+    let temp = new Date(now).setMonth(now.getMonth() - 1);
+    const priorMonth = new Date(temp)
+    const next_month = new Date(priorMonth).setMonth(priorMonth.getMonth() + 1);
+
+    // console.log(new Date(priorMonth).toLocaleDateString(), new Date(next_month).toLocaleDateString())
+
+    const curMonthStart = new Date(now).setDate(1)
+    const curMonthEnd = new Date(now).setDate(new Date(now.getFullYear(), now.getMonth() +1, 0).getDate())
+
+
+    let earning_last_month = await Orders.find({ order_status : 3 ,"uat" : {$gte: priorMonth, $lt: next_month}})
+    let earning_current_month = await Orders.find({ order_status : 3 ,"uat" : {$gte: curMonthStart , $lt: curMonthEnd}})
+
+    let earn_last_month = 0
+    let earn_current_month = 0
+    let earn_current_year = 0
+
+    for( var x = 0; x < earning_last_month.length; x++)
+        earn_last_month += earning_last_month[x].total_cost
+
+    for (var x = 0; x < earning_current_month.length; x++)
+        earn_current_month += earning_current_month[x].total_cost
 
     let categories = await Categories.find({});
 
@@ -517,17 +544,40 @@ router.post("/insights", adminAuth, async (req, res) => {
         $lt: new Date(`${year + 1}-01-01`),
       },
     });
+    let total_income_year = await Orders.find({
+        order_status: 3,
+        uat: {
+          $gte: new Date(`${year}-01-01`),
+          $lt: new Date(`${year + 1}-01-01`),
+        },
+      });
+
+    for( var x = 0; x < total_income_year.length; x++)
+      earn_current_year += total_income_year[x].total_cost
+
+    let total_stocks = 0
+
+    const prod_stocks = await Product.find({})
+
+    for(var x = 0; x < prod_stocks.length; x++)
+      total_stocks += prod_stocks[x].total_stock
 
     res.status(200).json({
       msg: "ok!",
       topProducts,
       stats: {
         total_pending_orders: pendings,
+        total_cancelled : cancelled_orders,
         total_in_progress: inprogress,
         total_completed: completed,
         total_products: products,
         total_available_products: available,
-      },
+        earn_last_month,
+        earn_current_month,
+        earn_current_year,
+        total_stocks,
+        low
+    },
       categories,
       delivered,
       cancelled,
