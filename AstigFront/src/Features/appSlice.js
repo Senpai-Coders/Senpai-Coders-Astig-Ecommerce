@@ -6,7 +6,6 @@ export const appSlice = createSlice({
      appState: {
        userSearch : '',
        filter : {
-           max : 50,
            scope : 'all',
            availability : 'all',
            sortBy : 'all'
