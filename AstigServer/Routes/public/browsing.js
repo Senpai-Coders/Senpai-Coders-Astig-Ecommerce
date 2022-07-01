@@ -28,6 +28,7 @@ router.post("/getproduct", async (req, res) => {
   const filters = req.body.filter;
 
   let products = [];
+  //console.log("LIMIT ", filters.max)
 
   if (itemName && itemName.length !== 0)
     products = await Product.find({
@@ -42,9 +43,15 @@ router.post("/getproduct", async (req, res) => {
     products.forEach((product, idx) => {
       let isMatched = false;
       product.categories.forEach((cat) => {
+        //console.log(cat.toLowerCase() === filters.scope.toLowerCase(), cat.toLowerCase(), filters.scope.toLowerCase())
         if (cat.toLowerCase() === filters.scope.toLowerCase()) isMatched = true;
       });
-      if (isMatched) finalRes.push(product);
+      if (isMatched) {
+        //console.log('matched ', product.name)
+        finalRes.push(product);
+      }else{
+        //console.log(product.name, ' did not match')
+      }
     });
   else finalRes = products;
 

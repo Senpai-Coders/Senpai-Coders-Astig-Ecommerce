@@ -39,7 +39,7 @@ const Products = (props) => {
     dispatch(
       setFilter({
         filter: {
-          max: 50,
+          //max: 50,
           scope,
           availability: "all",
           sortBy: "all",
