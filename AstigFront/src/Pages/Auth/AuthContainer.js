@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import {
   Switch,
   Route,
@@ -12,8 +12,12 @@ import RecoverAccount from "../Auth/RecoverAccount"
 import NotFound from "../NotFound";
 import SignAdmin from '../../Pages/Auth/SignAdmin'
 
-
 const AuthContainer = () => {
+
+    useEffect(()=>{
+        localStorage.clear()
+    },[])
+
   return (
     <div>
         <Switch>
